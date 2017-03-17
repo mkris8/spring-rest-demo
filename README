@@ -372,6 +372,7 @@ public class EmployeeController {
 	
 }
 
+On eclipse :
 - mvn > update project
 - Mvn clean
 - Mvn install
@@ -428,6 +429,13 @@ now returns
     "createdDate": 1464412963805
   }
 ]
+
+// get an employee by sending the id as the param
+Example :
+http://localhost:8080/SpringRestDemo/rest/emp/1000
+
+// get all the emps
+http://localhost:8080/SpringRestDemo/rest/emps
 
 select PUT
 http://localhost:8080/SpringRestDemo/rest/emp/delete/9999
